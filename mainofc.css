@@ -38,13 +38,23 @@ body {
     color: rgb(255, 191, 0);
 }
 
+.carousel-item {
+    width: 100%;
+    height: 800px;
+}
+
 .carousel-item img {
     width: 100%;
-    height: 540px;
+    height: 70%;
+    object-fit: cover;
 }
 
 #sobre-restaurante {
     background-color: rgb(161, 145, 95);
+}
+
+.lista-texto {
+    font-size: 18px;
 }
 
 #eventos, #title-eventos {
@@ -69,7 +79,6 @@ footer p {
     padding: 5px 0;
 }
 
-
 @media screen and (max-width: 760px) {    
     nav {
         margin-top: 26px;
@@ -77,6 +86,17 @@ footer p {
 
     #section-sobre {
         padding-top: 20px;
+    }
+
+    .carousel-item {
+        width: 100%;
+        height: 500px;
+    }
+    
+    .carousel-item img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
     }
 
     .nav-link {
