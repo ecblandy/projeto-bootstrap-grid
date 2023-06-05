@@ -1,8 +1,6 @@
 body {
     font-family: Roboto, sans-serif;
     background-color: rgb(247, 222, 147);
-
-
 }
 
 .navbar {
@@ -71,7 +69,7 @@ body {
 }
 
 #eventos, #title-eventos {
-    margin: 20px;
+    margin: 10px;
     text-align: center;
 }
 
