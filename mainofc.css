@@ -40,14 +40,15 @@ body {
 
 .carousel-item {
     width: 100%;
-    height: 800px;
+    height: 500px;
 }
 
 .carousel-item img {
     width: 100%;
-    height: 70%;
+    height: 100%;
     object-fit: cover;
 }
+
 
 #sobre-restaurante {
     background-color: rgb(161, 145, 95);
@@ -86,17 +87,6 @@ footer p {
 
     #section-sobre {
         padding-top: 20px;
-    }
-
-    .carousel-item {
-        width: 100%;
-        height: 500px;
-    }
-    
-    .carousel-item img {
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
     }
 
     .nav-link {
