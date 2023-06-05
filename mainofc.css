@@ -1,0 +1,86 @@
+body {
+    font-family: Roboto, sans-serif;
+    background-color: rgb(247, 222, 147);
+
+
+}
+
+.navbar {
+    background-color: rgb(255, 191, 0);
+}
+
+.navbar h1 {
+    font-size: 35px;
+}
+
+.navbar .nav-link.active {
+    background-color: rgb(51, 41, 19);
+    color: rgb(252, 225, 136);
+}
+
+.navbar-brand,
+.nav-link,
+.nav-link:hover,
+.navbar-brand:hover {
+    color: rgb(51, 41, 19);
+}
+
+.navbar-toggler {
+    background-color:rgb(255, 237, 197) ;
+    color: rgb(51, 41, 19);
+}
+
+.title {
+    font-family: 'Pacifico', cursive;
+}
+
+.title-color {
+    color: rgb(255, 191, 0);
+}
+
+.carousel-item img {
+    width: 100%;
+    height: 540px;
+}
+
+#sobre-restaurante {
+    background-color: rgb(161, 145, 95);
+}
+
+#eventos, #title-eventos {
+    margin: 20px;
+    text-align: center;
+}
+
+#title-eventos {
+    color: rgb(31, 21, 0);
+}
+
+#sub-title {
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+footer p {
+    background-color: rgb(255, 191, 0);
+    margin-bottom: 0;
+    text-align: center;
+    padding: 5px 0;
+}
+
+
+@media screen and (max-width: 760px) {    
+    nav {
+        margin-top: 26px;
+    }
+
+    #section-sobre {
+        padding-top: 20px;
+    }
+
+    .nav-link {
+        text-align: center;
+    }
+}
+
