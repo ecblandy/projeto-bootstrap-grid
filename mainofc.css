@@ -1,106 +1,96 @@
 body {
     font-family: Roboto, sans-serif;
-    background-color: rgb(247, 222, 147);
 }
 
 .navbar {
-    background-color: rgb(255, 191, 0);
+    background-color: rgb(133, 105, 255);
 }
 
-.navbar h1 {
-    font-size: 35px;
+header .nav .nav-link.active {
+    background-color: #442f00;
+    color: rgb(255, 174, 0);
 }
 
-.navbar .nav-link.active {
-    background-color: rgb(51, 41, 19);
-    color: rgb(252, 225, 136);
-}
-
+header .nav-link, 
 .navbar-brand,
-.nav-link,
+.navbar-brand:hover,
 .nav-link:hover,
-.navbar-brand:hover {
-    color: rgb(51, 41, 19);
+.nav-cardapio .nav-link.active:hover {
+    color: #442f00;    
 }
 
-.navbar-toggler {
-    background-color:rgb(255, 237, 197) ;
-    color: rgb(51, 41, 19);
-}
-
-.title {
-    font-family: 'Pacifico', cursive;
-}
-
-.title-color {
-    color: rgb(255, 191, 0);
-}
-
-.carousel-item {
-    width: 100%;
-    height: 500px;
+.navbar-brand {
+    font-family: Pacifico, cursive;
 }
 
 .carousel-item img {
     width: 100%;
-    height: 100%;
+    height: 1300px;
     object-fit: cover;
 }
 
-
-#sobre-restaurante {
-    background-color: rgb(161, 145, 95);
-}
-
-#sobrerestaurante-img {
+#eventos img {
     width: 100%;
-    height: 100%;
+    height: 300px;
     object-fit: cover;
 }
 
-#eventos-img {
-    width: 100%;
-    height: 50%;
-    object-fit: cover;
-}
-
-.lista-texto {
-    font-size: 18px;
-}
-
-#eventos, #title-eventos {
-    margin: 10px;
+.social-links {
     text-align: center;
 }
 
-#title-eventos {
-    color: rgb(31, 21, 0);
+
+.navbar-toggler {
+    background-color: #ffffff;
 }
 
-#sub-title {
+.section-title {
+    font-family: Pacifico, cursive;
+}
+
+.text-colored {
+    color: rgb(255, 174, 0);
     text-align: center;
-    font-size: 25px;
-    font-weight: bold;
 }
 
-footer p {
-    background-color: rgb(255, 191, 0);
-    margin-bottom: 0;
-    text-align: center;
-    padding: 5px 0;
+#sobre-o-restaurante,
+#cardapio {
+    background-color: #7c7aff;
 }
 
-@media screen and (max-width: 760px) {    
-    nav {
-        margin-top: 26px;
-    }
-
-    #section-sobre {
-        padding-top: 20px;
-    }
-
-    .nav-link {
-        text-align: center;
-    }
+#fale-conosco button {
+    background-color: rgb(133, 105, 255);
+    color: #442f00;
 }
 
+.nav-cardapio .nav-link.active {
+    background-color: rgb(255, 174, 0);
+    color: #442f00;
+}
+
+.nav-cardapio .nav-link {
+    color:  #442f00;
+}
+
+.nav-cardapio .nav-link:hover {
+    color: #442f00;
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+.social-links a{
+    text-decoration: none;
+}
+
+footer {
+    background-color: rgb(133, 105, 255);
+}
+
+@media (max-width: 767px) {
+    .carousel-item img {
+        height: 280px;
+    }
+}
