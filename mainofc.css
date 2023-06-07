@@ -81,6 +81,10 @@ header .nav-link,
     display: inline;
 }
 
+textarea {
+    resize: none;
+}
+
 .social-links a{
     text-decoration: none;
 }
